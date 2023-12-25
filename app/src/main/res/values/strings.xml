@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="sets">sets</string>
+
+    <string name="morse_code_instructions">
+    Morse code is a method used in telecommunication to encode text characters as sequences of two different signal durations,
+    such as dots and dashes. Morse code symbols consist of these basic elements:
+
+
+    1. Dot (.): Represented as a short signal or sound. In audio communication, its typically a short beep or click.
+
+    2. Dash (-): Represented as a longer signal or sound. In audio communication, its a longer tone or click.
+
+    Morse code uses combinations of dots and dashes to represent letters, numbers, and some special characters.
+    Here are some common Morse code symbols:
+
+
+    Letters (A-Z):
+
+    A: .-        N: -.        0: -----
+    B: -...      O: ---       1: .----
+    C: -.-.      P: .--.      2: ..---
+    D: -..       Q: --.-      3: ...--
+    E: .         R: .-.       4: ....-
+    F: ..-.      S: ...       5: .....
+    G: --.       T: -         6: -....
+    H: ....      U: ..-       7: --...
+    I: ..        V: ...-      8: ---..
+    J: .---      W: .--       9: ----.
+    K: -.-       X: -..-
+    L: .-..      Y: -.--
+    M: --        Z: --..
+
+
+
+
+    Arabic numerals (0-9):
+
+    1: .----
+    2: ..---
+    3: ...--
+    4: ....-
+    5: .....
+    6: -....
+    7: --...
+    8: ---..
+    9: ----.
+    0: -----
+
+
+    <string name="About_Morse">
+
+
+
+    </string>
+    </string>
+</resources>

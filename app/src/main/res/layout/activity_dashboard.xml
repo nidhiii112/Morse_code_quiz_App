@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/button2"
+        android:layout_marginTop="0dp">
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="290dp"
+            android:layout_marginBottom="140dp"
+            android:text="Hey!"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="254dp"
+            android:layout_marginBottom="105dp"
+            android:text="User"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="394dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="9dp"
+            android:gravity="center"
+            android:text="Let's Learn Something New!!"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="76dp"
+            android:src="@drawable/profile" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="523dp"
+        android:background="@color/black">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="412dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Learn"
+                android:textAlignment="center"
+                android:textColor="#6e6560"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Levels"
+                android:textAlignment="center"
+                android:textColor="#6e6560"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="9dp"
+                android:textAlignment="center"
+                android:textColor="#6e6560"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="About" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="9dp"
+                android:textAlignment="center"
+                android:textColor="#6e6560"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Profile" />
+        </GridLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="187dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="353dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="All About "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="90dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="334dp"
+        android:text="Morse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="289dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="-- --- .-. ... ."
+        android:textAlignment="center"
+        android:textColor="#8c6638"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="251dp"
+        android:text="Code"
+
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="-.-. --- -.. ."
+        android:textAlignment="center"
+        android:textColor="#8c6638"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="174dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/button3"
+        android:text="Let's Play and Learn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/alfa_slab_one"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="244dp"
+        android:layout_height="398dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="86dp"
+        app:srcCompat="@drawable/quizlogo" />
+
+    <Button
+        android:id="@+id/bookmark_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/cateogry_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="BookMarks" />
+
+</RelativeLayout>
